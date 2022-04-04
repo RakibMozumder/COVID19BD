@@ -1,0 +1,97 @@
+<resources>
+
+    <string name="app_name">Covid19BD</string>
+
+    <string name="title_updates">Updates</string>
+    <string name="title_tracing">Tracing</string>
+    <string name="title_tester">Self Test</string>
+    <string name="covid_19_self_check">COVID-19 Self-Test</string>
+    <string name="self_check">Self Test</string>
+    <string name="self_check_description">Click the button below to start the COVID-19 self-test if you’re worried you were exposed to COVID-19.</string>
+    <string name="selfcheckfragment">SelfCheckFragment</string>
+    <string name="return_home">Leave Test</string>
+    <string name="covid_status_title">Your COVID-19 Status</string>
+    <string name="covid_status_description">Current Status: %1$s</string>
+    <string name="covid_status_update_button_title">Update Status</string>
+    <string name="covid_status_dialog_title">Update Your COVID-19 Status</string>
+    <string name="covid_status_shared_pref">covid_status</string>
+    <string name="bluetooth_id_shared_pref">bluetoothID</string>
+    <string name="is_user_registered_shared_pref">isRegistered</string>
+    <string name="high_risk">High Risk</string>
+    <string name="moderate_risk">Medium Risk</string>
+    <string name="low_risk">Low Risk</string>
+    <string name="less_days_ago">4-5 Days Ago</string>
+    <string name="more_days_ago">7-8 Days Ago</string>
+    <string name="less_time">10-20 Mins</string>
+    <string name="more_time">30-40 Mins</string>
+    <string name="scan">Scan</string>
+    <string name="stop_scanning">Stop Scanning</string>
+    <string name="show_details">Show Details</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="no_summaries">No summaries found.</string>
+    <string name="tests">Tests</string>
+    <string name="total">Total</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="search_hint">Search Country</string>
+    <string name="learn_more"><a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html/">Learn More About Prevention and Risks</a></string>
+    <string name="assessmentLink"><a href="http://dashboard.dghs.gov.bd/webportal/pages/covid19.php">Find an assessment centre</a></string>
+    <string name="whoAdvice"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO: General advice for the Public</a></string>
+    <string name="whoMasks"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks">WHO: Advice on masks</a></string>
+    <string name="whoFacts"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">WHO: COVID-19 fact checking</a></string>
+    <string name="whoTravel"><a href="https://www.who.int/travel-advice">WHO: Advice on travel</a></string>
+    <string name="whoDashboard"><a href="https://covid19.who.int">WHO: COVID-19 case numbers dashboard</a></string>
+    <string name="whoHome"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO: COVID-19 homepage</a></string>
+    <string name="ontarioAssessment"><a href="https://covid-19.ontario.ca/covid-19-assessment-centres">Ontario COVID-19 assessment centers</a></string>
+    <string name="cdcHome"><a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC: COVID-19 homepage</a></string>
+    <string name="whoFAQ"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub">WHO: FAQ</a></string>
+    <string name="whoFund"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO: COVID-19 Response Fund</a></string>
+    <string name="resources">Resources</string>
+    <string name="information">Information</string>
+    <string name="information_stored">Information Stored</string>
+    <string name="stored_description">The application stores the following information:</string>
+    <string name="stored_bluetood_desc">  • Your Bluetooth ID</string>
+    <string name="stored_covid_status">  • Your COVID 19 Status</string>
+    <string name="stored_connected_devices">  • Contacted Devices</string>
+    <string name="add_widget">Add widget</string>
+    <string-array name="covid_status_update_choices">
+        <item>Negative</item>
+        <item>Positive</item>
+    </string-array>
+    <string name="widget_header">Tracing Risk Updates</string>
+    <string name="time_elapsed">Time Elapsed:</string>
+    <string name="duration">Duration:</string>
+    <string name="colour_marking">Note: Our app does not take any personal information.</string>
+    <string name="contact_privacy">Contacted users information are stored only on your device.</string>
+    <string name="no_risk_found">No Risks found.</string>
+    <string name="dummy_data_note">Note: This is dummy data. This tab will be updated once you come in contact with a real COVID-19 positive person.</string>
+
+    <!--Credits only-->
+    <string name="credits">\u2020 <b>www.com</b> for Bangldesh
+        \n\u2020 <b>Rakib Mozumder</b> for Global API.
+        \n\u2020 <b>Rakib Mozumder</b> for app icon.
+        \n\u2020 <b>Flaticon</b> for social media icons.
+        \n\u2020 <b>Rakib Mozumder</b> for his help in fixing bugs.
+    </string>
+    <string name="libs">\u2020 <b>Glide</b> for showing flag images.
+        \n\u2020 <b>Eaze Graph</b> for showing Pie charts.
+        \n\u2020 <b>Circle ImageView</b> for showing my pic xD lol.
+    </string>
+    <string name="owner_text">Made with ❤ in Bangladesh\n\nBy Rakib Mozumder</string>
+
+
+    <!--App version-->
+    <string name="version">1.0</string>
+
+
+    <!--App changelog-->
+    <string name="changelogTitle">Covid19BD</string>
+    <string name="changelog">\u2020 Fixed some layout glitches.\n\u2020 Fixed countries not showing new recovered cases.\n\u2022 Improvements in push notifications\n\u2022 Other minor under the hood changes.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+
